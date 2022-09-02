@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useState } from "react";
+import { LoginService } from "./Services"
 
 function App() {
+  const [veriler, setVeriler] = useState(false)
+
+  useEffect(() => {
+    LoginService.getPostDetail('5')
+     .then(res => {return res})
+     .then(data => setVeriler(data))
+     .catch(err => console.log(err))
+
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <ul>
+          {veriler &&  (
+              <li key={veriler.id}>{veriler.title}</li>  
+          )}
+        </ul>  
     </div>
   );
 }
