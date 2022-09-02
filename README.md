@@ -8,6 +8,5 @@
 #### Proje react ile basit bir şekilde api isteği yapma projesidir. Şablon olarak kullanılabilir.
 
 ## API Adresi Değiştirme
-#### .env.development 
-#### .env.production
+#### `.env.development`  `.env.production`
 #### olmak üzere iki farklı dosya vardır biri test diğeri de yayınlama da varsıylan adresi belirler. `REACT_APP_API_URL=[BURAYA API LİNKİNİZİ YAZABİLİRSİNİZ] `
