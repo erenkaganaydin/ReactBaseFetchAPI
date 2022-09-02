@@ -21,7 +21,4 @@
 
 #### Login.js örnek hazırlanmıstır.
 
-
-##### İşinize yararsa yukardan Star lamayı unutmayın :)
-
 ###### <3 
