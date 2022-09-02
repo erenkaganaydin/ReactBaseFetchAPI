@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div>
+      <h1>Deneme</h1>  
         <ul>
           {veriler &&  (
               <li key={veriler.id}>{veriler.title}</li>  
