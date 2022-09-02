@@ -10,4 +10,4 @@
 ## API Adresi Değiştirme
 #### .env.development 
 #### .env.production
-#### olmak üzere iki farklı dosya vardır biri test diğeri de yayınlama da varsıylan adresi belirler. Burada yer alan `REACT_APP_API_URL=[BURAYA API LİNKİNİZİ YAZABİLİRSİNİZ] `
+#### olmak üzere iki farklı dosya vardır biri test diğeri de yayınlama da varsıylan adresi belirler. `REACT_APP_API_URL=[BURAYA API LİNKİNİZİ YAZABİLİRSİNİZ] `
