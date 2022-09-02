@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# React ile api isteği atmak için basit bir şablon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeyi kurduktan sonra komut satırında cd ile uygulama klasörüne gidip, npm start yazmanız yeterlidir.
 
-## Available Scripts
+## Kullanılan Api https://jsonplaceholder.typicode.com/  apisidir. Proje react ile basit bir şekilde api isteği yapma projesidir. Şablon olarak kullanılabilir.
 
 In the project directory, you can run:
 
