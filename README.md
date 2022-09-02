@@ -20,3 +20,8 @@
 #### src klasörünün altındaki Services klasörünün içinde index.js dosyasına `export * from "dosyanız"` seklinde çıktı verip projenizde tek bir yerden import edip kullanabilirsiniz.
 
 #### Login.js örnek hazırlanmıstır.
+
+
+##### İşinize yararsa yukardan Star lamayı unutmayın :)
+
+###### <3 
